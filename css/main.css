@@ -1,0 +1,111 @@
+body, html {
+        padding : 0px;
+        margin : 0px;
+        height : 100%;
+    } 
+
+    #wrapper {
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        height:100%;
+        padding: 0px;
+    }
+
+    #menu-header {
+        height:40px;
+        background-color:#AAD9FF;
+	   	  text-align: center;
+	   	  font-weight:bold;
+	   	  font-size:1.2em;
+  	  	  font-family: sans-serif;
+    }
+	
+	#menu-header ul {
+	  list-style: none;
+	  height:auto;
+	  padding: 0px;
+	  margin: 0;
+	  text-align:center;
+	}
+	#menu-header li {
+      display: inline-block;
+      line-height:32px;
+	}
+ 
+	#menu-header a {
+	  text-decoration: none;
+	    color: #0000FF;
+    	padding: 8px 8px 8px 8px;
+    	margin:0px 0px 0px 60px;
+    	text-align:center;
+    	  display: block;
+	}
+ 
+	#menu-header a:hover {
+	 color: #F90;
+    	background-color: #FFF;
+	}
+ 
+	#menu-header a.active {
+	  background-color: #fff;
+	  color: #000;
+	  cursor: default;
+	}
+    
+    #top-header {
+        height:150px;
+        /*background-color:#F5F5DC;*/
+        background-color:#888;
+        /*background-color:#336699;*/
+        width:100%;
+    }
+    
+    #header-content{
+        padding-left: 12%;
+    }
+    
+    #my-name{
+    	font-family: 'Arial Black';
+        font-size: 1em;/*40px;*/
+        color:#fff;
+        padding-top: 5px;
+    }
+    
+     #my-img{
+     	float:right;
+     	padding-top:2px;
+    }
+    
+    
+    #my-address{
+    	color: #ffeecc;
+    	margin: 0px 0 0 10px;
+    	font-size:1em;
+    }
+    #my-address a{
+		    color:#ffdd00;
+       }    
+
+    .my-addr-line{
+    	padding: 0 0 2px 0;
+    }
+ 
+    #nav {
+        background-color:#eeeeee;
+        width:300px;
+        height:100%;
+        float:left;
+    }
+
+    #content {
+        height:100%;
+        background-color:#ffffff;
+        font-family: georgia, sans-serif;
+        font-size:1.1em;
+        border:solid;
+        border-color:#bbbbbb;
+        padding: 3% 3% 4% 3%;
+    }    
+    
+   

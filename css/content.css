@@ -1,0 +1,187 @@
+/* Generic content */
+
+a {
+    text-decoration: none;
+    /*color: #09c;*/
+}
+
+a:hover {
+    color: #036;
+}
+
+
+div.section-heading {
+    font-size: 18pt;
+    font-family: cursive;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #888;
+}
+
+p.section-content {
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+div.pub-entry {
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+span.title {
+    font-style: italic;
+    color: #000;
+}
+
+div.ta-entry {
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+span.course-name {
+    font-style: italic;
+    color: #222;
+}
+
+div.pics {
+    padding-top: 10px;
+    text-align: center;
+}
+
+img.sport-pic {
+    height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.footer-image {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Specific content */
+
+div#me {
+    font-family: serif;
+    font-size: 24pt;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#my-address{
+	color: #ffeecc;
+	margin: 0px 0 0 25px;
+	font-size:1em;
+}
+#my-address a{
+		color:#ffdd00;
+		margin-right: 8px;
+		
+   }    
+   
+#my-address a:hover {
+    color: #FFFFFF;
+}
+
+
+.my-addr-line{
+	padding: 0 0 1px 0;
+}
+
+#my-img{
+	float:right;
+	border: solid 1px #aad9dd;
+	margin: 0 0 15px 20px; 
+}
+    #menu-header {
+        height:40px;
+        background-color:#AAD9FF;
+	   	  text-align: center;
+	   	  font-weight:bold;
+	   	  font-size:1.2em;
+  	  	  font-family: sans-serif;
+    }
+	
+	#menu-header ul {
+	  list-style: none;
+	  height:auto;
+	  padding: 0px;
+	  margin: 0;
+	  text-align:center;
+	}
+	#menu-header li {
+      display: inline-block;
+      line-height:32px;
+	}
+ 
+	#menu-header a {
+	  text-decoration: none;
+	    color: #0000FF;
+    	padding: 8px 8px 8px 8px;
+    	margin:0px 0px 0px 60px;
+    	text-align:center;
+    	  display: block;
+	}
+ 
+	#menu-header a:hover {
+	 color: #F90;
+    	background-color: #FFF;
+	}
+ 
+	#menu-header a.active {
+	  background-color: #fff;
+	  color: #000;
+	  cursor: default;
+	}
+
+    #wrapper {
+        width:750px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+
+    #content {
+        height:auto;
+        background-color:#ffffff;
+        font-family: georgia, sans-serif;
+        border:solid;
+        border-color:#bbbbbb;
+        padding: 30px 20px 40px 30px;
+        margin-bottom:10px;
+
+    }    
+
+
+.me{
+    font-weight: bold;
+    
+}
+div#research-image {
+    text-align: center;
+}
+
+img#research {
+    height: 120px;
+}
+
+.project-entry{
+  margin: 20px 0 0 0;  
+}
+
+.project-heading{
+font-family:arial;
+font-weight:bold;
+font-size:12pt;
+}
+
+.project-content{
+    margin: 2px 5px 0 10px;
+    text-align: justify;
+}
