@@ -103,10 +103,10 @@ div#me {
 }
     #menu-header {
         height:40px;
-        background-color:#AAD9FF;
+        background-color:#DDEEFF;
 	   	  text-align: center;
 	   	  font-weight:bold;
-	   	  font-size:1.2em;
+	   	  font-size:1.1em;
   	  	  font-family: sans-serif;
     }
 	
@@ -143,7 +143,7 @@ div#me {
 	}
 
     #wrapper {
-        width:750px;
+        width:800px;
         margin-left: auto;
         margin-right: auto;
         padding: 0px;
@@ -177,6 +177,14 @@ img#research {
   margin: 20px 0 0 0;  
 }
 
+.resume-download{
+	margin: 20px 0 2px 0;
+	font-size: 1.1em;
+	border-bottom: 2px solid #888;
+	border-top: 2px solid #888;
+	padding: 5px 0 5px 0;
+	
+}
 .project-heading{
 font-family:arial;
 font-weight:bold;
@@ -187,3 +195,30 @@ font-size:12pt;
     margin: 2px 5px 0 10px;
     text-align: justify;
 }
+
+.new-para{
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.first-line{
+	margin-left: 30px;
+	}
+.small-italics{
+		font-style: italic;
+		font-size:0.85em;	
+}
+.resume-heading{
+font-family: arial;
+font-size: 1.15em;
+font-weight:bold;
+color:#0000A1;
+margin:20px 0 0 0;
+}
+.resume-content{
+margin: 5px 0 0 30px;	
+}
+.td-column{
+	margin: 0 0 0 25px;
+	
+	}
